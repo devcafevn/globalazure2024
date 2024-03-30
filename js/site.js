@@ -13,7 +13,7 @@
 
     smoothScroll: function () {
         // Smooth Scrolling
-        $('a[href*=#]:not([href=#carousel-example-generic])').click(function () {
+        $('a[href*="#"]:not([href="#carousel-example-generic"])').on('click', function () {
             if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
 
                 var target = $(this.hash);
@@ -128,7 +128,7 @@
         if ($(window).scrollTop() > num) {
             $('nav').addClass('scrolled');
         }
-        $(window).bind('scroll', function () {
+        $(window).on('scroll', function () {
             if ($(window).scrollTop() > num) {
                 $('nav').addClass('scrolled');
 
@@ -137,7 +137,7 @@
             }
         });
 
-        $('ul.navbar-nav li a').bind('click', function () {
+        $('ul.navbar-nav li a').on('click', function () {
             if ($(this).closest('.navbar-collapse').hasClass('in')) {
                 $(this).closest('.navbar-collapse').removeClass('in');
             }
@@ -152,7 +152,7 @@
 }; // AppMaster
 
 
-$(document).ready(function () {
+$(function () {
 
     appMaster.smoothScroll();
 
