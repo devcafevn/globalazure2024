@@ -1,0 +1,24 @@
+{
+    "$schema": "https://raw.githubusercontent.com/streetsidesoftware/cspell/main/cspell.schema.json",
+    "ignorePaths": [
+        "css",
+        "js/rs-plugin",
+        "js/placeholdem.min.js"
+    ],
+    "words": [
+        "CNCF",
+        "Entra",
+        "Ganshani",
+        "globalazure",
+        "hoffset",
+        "Huynh",
+        "OIDC",
+        "Phuc",
+        "Placeholdem",
+        "Punit",
+        "scrollpoint",
+        "Thang",
+        "Thien",
+        "WASI"
+    ],
+}
