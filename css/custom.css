@@ -136,11 +136,18 @@ div.modal-body {
 
 .btn.register {
     text-transform: uppercase;
-    background-color: #0094ff;
+    background-color: red;
     color: white;
     padding: 15px 55px;
     font-weight: bold;
     font-size: x-large;
+    border-color: white;
+}
+
+.btn.register:hover {
+    background-color: white;
+    color: red;
+    border-color: red;
 }
 
 .agenda-time {
